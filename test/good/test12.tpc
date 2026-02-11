@@ -1,0 +1,20 @@
+// test sur not (!) , sur CHARACTER et sur  argument avec ListExp
+
+
+char car ;
+
+int compare(int a, int b  ){
+    if (a%b==0){
+        return 0;
+    }
+    return 1;
+}
+
+int main (void){
+    if (!compare(25,5)){
+        a='a';
+    }else {
+        a='\n';
+    }
+    return 0;
+}

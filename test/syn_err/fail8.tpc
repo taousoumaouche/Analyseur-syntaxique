@@ -1,0 +1,5 @@
+// test sur manque de nom de structeur
+
+struct {
+    int x;
+};

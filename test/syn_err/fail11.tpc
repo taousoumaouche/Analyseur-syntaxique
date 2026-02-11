@@ -1,0 +1,5 @@
+// manque de Accolade ouverante
+int main(void) {
+    int x;
+    }
+}

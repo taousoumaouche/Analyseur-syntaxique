@@ -1,0 +1,4 @@
+struct Point init(int x int y) {
+    struct Point p;
+    return p;
+}

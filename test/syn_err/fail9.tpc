@@ -1,0 +1,4 @@
+// parametre sans nom
+int func(int) {
+    return 0;
+}

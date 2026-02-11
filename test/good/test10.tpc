@@ -1,0 +1,8 @@
+// test sur le block d'instruction vide et l'instruction ;
+
+
+int main(void) {
+    {}
+    ;
+    return 0;
+}

@@ -1,0 +1,92 @@
+// Test de couverture complète
+
+struct Point {
+    int x;
+    int y;
+};
+
+int global;
+
+void voidret(void) {
+    return;
+}
+
+void voidempty(void) {
+}
+
+int unary(void) {
+    int x;
+    x = -5;
+    x = +10;
+    x = -x;
+    return -(x + 3);
+}
+
+int allcomp(int a, int b) {
+    if (a > b) return 1;
+    if (a <= b) return 2;
+    if (a >= b) return 3;
+    return 0;
+}
+
+int divstar(void) {
+    int a;
+    a = 10 / 2;
+    a = 5 * 3;
+    return a;
+}
+
+int triple(int a, int b, int c) {
+    return a + b + c;
+}
+
+int noparam(void) {
+    return 42;
+}
+
+int usestruct(struct Point p) {
+    return p.x;
+}
+
+int structaccess(void) {
+    struct Point p;
+    p.x = 5;
+    p.y = p.x + 3;
+    return p.y;
+}
+
+int blocks(void) {
+    int x;
+    int z;
+    int y;
+    {
+        
+        {
+        
+            z = 1;
+        }
+    }
+    return 0;
+}
+
+int ifonly(int x) {
+    if (x > 0) {
+        return 1;
+    }
+    return 0;
+}
+
+int complex(void) {
+    return ((1 + 2) * (3 - 4)) / ((5 % 6) + 7);
+}
+
+int callfunc(void) {
+    return noparam();
+}
+
+int main(void) {
+    voidret();
+    voidempty();
+    triple(1, 2, 3);
+    return callfunc() + unary() + allcomp(1, 2);
+}

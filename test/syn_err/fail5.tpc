@@ -1,0 +1,7 @@
+// test declarion d une variable dans fonction apres Instr
+
+int main(void){
+    
+    return 0;
+    int a;
+}

@@ -1,0 +1,16 @@
+
+/*  utilisation de fontion en instruction dans une autre fonction  */
+int max;  /*taille maximale autorise  */
+int comp(int n){
+    if (n>max ){
+        return 0;
+    }
+    return 1;
+}
+
+int main(void){
+    int n , i;
+    n=255 ;
+    i=comp(n) ;
+    return 0;
+}

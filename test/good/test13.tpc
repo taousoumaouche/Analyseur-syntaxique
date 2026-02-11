@@ -1,0 +1,9 @@
+// test plusieur declaration local 
+int main(void) {
+    struct A { int x; };
+    struct B { int y; };
+    int a, b;
+    struct A va;
+    struct B vb;
+    return 0;
+}

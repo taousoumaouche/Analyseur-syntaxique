@@ -1,0 +1,14 @@
+// test sur les blocks imbriqués
+int main(void) {
+    int x;
+    int y;
+    int z;
+    {
+        y = 5;
+        {      
+            z = y + 1;
+        }
+        
+    }
+    return 0;
+}

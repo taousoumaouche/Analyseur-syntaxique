@@ -1,0 +1,11 @@
+// test sur les Variables de typr struct (acces aux champs ) et 
+
+int a,b;
+struct point{int x; int y;};
+
+int main(void){
+    struct point p_ann;
+    p.x = 12;
+    p.y=24;
+    return 'a';
+}

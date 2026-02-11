@@ -1,0 +1,15 @@
+
+int blocks(void) {
+    int x;
+    int z;
+    int y;
+    {
+        int x;
+        {
+        
+            z = 1;
+        }
+    }
+    return 0;
+}
+

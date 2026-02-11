@@ -1,0 +1,11 @@
+// test de declarateur sur champ (struct) et Variable globalec  et dans une fonction 
+
+
+
+int a,b;
+struct point{int x, y;};
+
+int main(void){
+    int x,y;
+    return 0;
+}

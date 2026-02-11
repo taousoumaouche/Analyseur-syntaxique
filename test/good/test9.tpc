@@ -1,0 +1,11 @@
+// test sur declaration d un type structure dans fonction 
+int a,b;
+
+
+int main(void){
+
+    struct point{int x; int y;};
+    struct point p;
+
+    return 0;
+}

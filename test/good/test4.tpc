@@ -1,0 +1,10 @@
+int max;
+struct aide{
+    int x,yyerror;
+    struct point x,y;
+};
+char car;
+struct aide main(void){
+    
+    return 0;
+}

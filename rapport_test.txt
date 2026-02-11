@@ -1,0 +1,66 @@
+test/test_correct/test00.tpc : 0
+test/test_correct/test10.tpc : 0
+test/test_correct/test11.tpc : 0
+test/test_correct/test12.tpc : 0
+test/test_correct/test13.tpc : 0
+test/test_correct/test14.tpc : 0
+test/test_correct/test15tpc : 0
+test/test_correct/test16.tpc : 0
+test/test_correct/test17.tpc : 0
+test/test_correct/test18.tpc : 0
+test/test_correct/test19.tpc : 0
+test/test_correct/test1.tpc : 0
+test/test_correct/test20.tpc : 0
+test/test_correct/test21.tpc : 0
+test/test_correct/test22.tpc : 0
+test/test_correct/test23.tpc : 0
+test/test_correct/test2.tpc : 0
+test/test_correct/test3.tpc : 0
+test/test_correct/test4.tpc : 0
+test/test_correct/test5.tpc : 0
+test/test_correct/test6.tpc : 0
+test/test_correct/test7.tpc : 0
+test/test_correct/test8.tpc : 0
+test/test_correct/test9.tpc : 0
+test/test_correct/test_ok.tpc : 0
+test/test_fail/fail10.tpc : 1
+test/test_fail/fail11.tpc : 1
+test/test_fail/fail12.tpc : 1
+test/test_fail/fail13.tpc : 1
+test/test_fail/fail14.tpc : 1
+test/test_fail/fail15.tpc : 1
+test/test_fail/fail16.tpc : 1
+test/test_fail/fail17.tpc : 1
+test/test_fail/fail18.tpc : 1
+test/test_fail/fail19.tpc : 1
+test/test_fail/fail1.tpc : 1
+test/test_fail/fail20.tpc : 1
+test/test_fail/fail21.tpc : 1
+test/test_fail/fail22.tpc : 1
+test/test_fail/fail23.tpc : 1
+test/test_fail/fail24.tpc : 1
+test/test_fail/fail25.tpc : 1
+test/test_fail/fail26.tpc : 1
+test/test_fail/fail27.tpc : 1
+test/test_fail/fail28.tpc : 1
+test/test_fail/fail29.tpc : 1
+test/test_fail/fail30.tpc : 1
+test/test_fail/fail31.tpc : 1
+test/test_fail/fail32.tpc : 1
+test/test_fail/fail33.tpc : 1
+test/test_fail/fail3.tpc : 1
+test/test_fail/fail4.tpc : 1
+test/test_fail/fail5.tpc : 1
+test/test_fail/fail6.tpc : 1
+test/test_fail/fail7.tpc : 1
+test/test_fail/fail8.tpc : 1
+test/test_fail/fail9.tpc : 1
+
+
+======================
+===== Resultats ======
+======================
+
+fichiers valides: 25
+fichier non valides: 32
+Nombre de fichiers lus: 57

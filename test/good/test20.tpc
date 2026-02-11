@@ -1,0 +1,11 @@
+//test sur appel de fonction void 
+
+
+void get(int a ){
+    return ;
+}
+int main(void) {
+    get(4);
+    return 0;
+}
+

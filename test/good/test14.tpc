@@ -1,0 +1,8 @@
+// test sur le addsub F
+int unary(void) {
+    int x;
+    x = -5;
+    x = +10;
+    x = -x;
+    return -(x + 3);
+}
