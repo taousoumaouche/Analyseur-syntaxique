@@ -7,7 +7,7 @@
 > Analyseur syntaxique pour le langage TPC (sous-ensemble du C) avec support des structures  
 > Projet académique - Licence 3 Informatique - Module Analyse Syntaxique 2025-2026
 
-## 📋 Table des matières
+## Table des matières
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
@@ -19,7 +19,7 @@
 - [Implémentation technique](#implémentation-technique)
 - [Auteurs](#auteurs)
 
-## 🎯 Aperçu
+## Aperçu
 
 Cet analyseur syntaxique vérifie la conformité des programmes écrits en **TPC** (un sous-ensemble du langage C) et génère un **arbre syntaxique abstrait (AST)** pour les programmes valides.
 
@@ -28,7 +28,7 @@ Le projet utilise :
 - **Bison** pour l'analyse syntaxique
 - Construction d'AST avec gestion complète des structures
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ### Analyse Lexicale (Flex)
 - ✅ Reconnaissance des mots-clés : `if`, `else`, `while`, `return`, `struct`, `int`, `char`, `void`
@@ -52,9 +52,9 @@ Le projet utilise :
 - ✅ Structures comme paramètres ou valeurs de retour de fonctions
 - ✅ Accès aux champs simples et imbriqués (`a.b.x`)
 - ✅ Affectation de structures et de champs
-- ⚠️ Restrictions : pas de structures anonymes, pas de `typedef`
+- Restrictions : pas de structures anonymes, pas de `typedef`
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 ```bash
@@ -86,7 +86,7 @@ make clean      # Supprime les fichiers objets
 make mrproper   # Supprime tout (objets + exécutable)
 ```
 
-## 📖 Utilisation
+##  Utilisation
 
 ### Ligne de commande
 
@@ -166,7 +166,7 @@ Program
 │           └── Variable: x
 ```
 
-## 📁 Architecture
+## Architecture
 
 ```
 ProjetASL3_MOKHTARI_OUMAOUCHE/
@@ -185,7 +185,7 @@ ProjetASL3_MOKHTARI_OUMAOUCHE/
 └── README.md         # Ce fichier
 ```
 
-## 🔧 Extensions
+##  Extensions
 
 ### Support des structures
 
@@ -219,7 +219,7 @@ int main() {
 - ❌ Déclaration du type et de la variable séparées
 - ✅ Déclaration du nom et des champs simultanée obligatoire
 
-## 🧪 Tests
+##  Tests
 
 ### Structure des tests
 ```bash
@@ -248,7 +248,7 @@ Rule coverage: 88.65%
 - ✅ **100% de réussite** sur le bac à sable VPL
 - ✅ **88,65%** de couverture des règles grammaticales
 
-## 💡 Implémentation technique
+## Implémentation technique
 
 ### Hiérarchie des opérateurs
 
@@ -322,7 +322,7 @@ Assignment
 **Problème** : Signaler les erreurs sans interrompre prématurément l'analyse  
 **Solution** : Gestion d'erreur avec numéro de ligne et de colonne précis
 
-## 👥 Auteurs
+## Auteurs
 
 **Binôme**
 - **OUMAOUCHE Taous** (OT)
@@ -332,13 +332,13 @@ Assignment
 Licence 3 Informatique - 2025-2026  
 Module : Analyse Syntaxique
 
-## 📄 Licence
+## Licence
 
 Ce projet est réalisé dans un cadre académique.
 
 ---
 
-## 📚 Ressources
+## Ressources
 
 - [Documentation Flex](https://github.com/westes/flex)
 - [Documentation Bison](https://www.gnu.org/software/bison/manual/)
